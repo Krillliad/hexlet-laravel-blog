@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="478f843e-0ad0-427a-87f8-6002d7c94dd5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,6 +142,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.last.introduce.type" value="LET" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -159,5 +168,35 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="700" y="351" width="581" height="411" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606728051560">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="700" y="351" width="581" height="411" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1606728051560" />
+    <state x="172" y="127" width="1648" height="853" key="DiffContextDialog" timestamp="1606730997711">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="172" y="127" width="1648" height="853" key="DiffContextDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1606730997711" />
+    <state x="630" y="327" width="722" height="460" key="EditFileWatcherDialog" timestamp="1606729117462">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="630" y="327" width="722" height="460" key="EditFileWatcherDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1606729117462" />
+    <state width="1802" height="266" key="GridCell.Tab.0.bottom" timestamp="1606730990538">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="266" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1606730990538" />
+    <state width="1802" height="266" key="GridCell.Tab.0.center" timestamp="1606730990536">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="266" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1606730990536" />
+    <state width="1802" height="266" key="GridCell.Tab.0.left" timestamp="1606730990535">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="266" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1606730990535" />
+    <state width="1802" height="266" key="GridCell.Tab.0.right" timestamp="1606730990537">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="266" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1606730990537" />
   </component>
 </project>
