@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\DorouController;
+use App\Http\Controllers\TeamController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,17 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+//Route::get('/', []);
+Route::get('about', [DorouController::class, 'about']);
+Route::get('members', [TeamController::class, 'team']);
 
-Route::get('about', function () {
-    return view('about');
-});
-
-Route::get('members', function () {
-    $team = [
-        ['name' => 'Vasiliy', 'position' => 'Dvornik'],
-        ['name' => 'Ivan', 'position' => 'Web-Developer'],
-        ['name' => 'Andrey', 'position' => 'CTO'],
-    ];
-
-    return view('members', ['team' => $team]);
-});
