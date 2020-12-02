@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 
 class DorouController extends Controller
 {
-    public function about()
+    public function welcome()
     {
-        return view('about');
+        return view('welcome');
     }
 }
