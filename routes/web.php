@@ -20,3 +20,13 @@ Route::get('/', function () {
 Route::get('about', function () {
     return view('about');
 });
+
+Route::get('members', function () {
+    $team = [
+        ['name' => 'Vasiliy', 'position' => 'Dvornik'],
+        ['name' => 'Ivan', 'position' => 'Web-Developer'],
+        ['name' => 'Andrey', 'position' => 'CTO'],
+    ];
+
+    return view('members', ['team' => $team]);
+});

@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="478f843e-0ad0-427a-87f8-6002d7c94dd5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/pages/welcome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/members.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/about.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,6 +163,7 @@
       <updated>1606717276809</updated>
       <workItem from="1606717277828" duration="76000" />
       <workItem from="1606717462743" duration="1509000" />
+      <workItem from="1606878147556" duration="10283000" />
     </task>
     <servers />
   </component>
@@ -174,10 +175,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="700" y="351" width="581" height="411" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1606728051560" />
-    <state x="172" y="127" width="1648" height="853" key="DiffContextDialog" timestamp="1606730997711">
+    <state x="172" y="127" width="1648" height="853" key="DiffContextDialog" timestamp="1606885077330">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="172" y="127" width="1648" height="853" key="DiffContextDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1606730997711" />
+    <state x="172" y="127" width="1648" height="853" key="DiffContextDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1606885077330" />
     <state x="630" y="327" width="722" height="460" key="EditFileWatcherDialog" timestamp="1606729117462">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -198,5 +199,13 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1802" height="266" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1606730990537" />
+    <state x="688" y="276" width="616" height="554" key="find.popup" timestamp="1606881418663">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="688" y="276" width="616" height="554" key="find.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1606881418663" />
+    <state x="660" y="252" key="run.anything.popup" timestamp="1606885064567">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="660" y="252" key="run.anything.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1606885064567" />
   </component>
 </project>
