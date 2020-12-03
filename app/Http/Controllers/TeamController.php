@@ -11,6 +11,13 @@ class TeamController extends Controller
     public function team() {
         {
             $team = Team::all();
+//            $team = [
+//              ['name' => 'Vasiliy', 'position' => 'Operator'],
+//              ['name' => 'Egor', 'position' => 'Developer'],
+//              ['name' => 'Anastasia', 'position' => 'Designer'],
+//              ['name' => 'Serega', 'position' => 'Dvornik']
+//            ];
+
             return view('members', ['team' => $team]);
         }
     }

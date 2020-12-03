@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\InformationController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\DorouController;
 use App\Http\Controllers\TeamController;
@@ -16,10 +17,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [DorouController::class, 'welcome']);
+Route::get('/', [DorouController::class, 'welcome'])
+    ->name('main.welcome');
 
-Route::get('about', [PageController::class, 'about']);
+Route::get('about', [PageController::class, 'about'])
+    ->name('about.about');
 
-Route::get('members', [TeamController::class, 'team']);
+Route::get('members', [TeamController::class, 'team'])
+    ->name('members.team');
+
+Route::get('information', [InformationController::class, 'index'])
+    ->name('information.index');
+
+Route::get('/information/{id}', [InformationController::class, 'show'])
+    ->name('information.show');
 
 //Route::resource('posts', PostController::class)->except('show', 'index');

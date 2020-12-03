@@ -12,13 +12,16 @@
 <body>
     <div class="header">
         <div class="button-navigation">
-            <a href="/">Main</a>
+            <a href="{{ route('main.welcome') }}">Main</a>
         </div>
         <div class="button-navigation">
-            <a href="about">About</a>
+            <a href="{{ route('about.about') }}">About</a>
         </div>
         <div class="button-navigation">
-            <a href="members">Team</a>
+            <a href="{{ route('members.team') }}">Team</a>
+        </div>
+        <div class="button-navigation">
+            <a href="{{ route('information.index') }}">Information</a>
         </div>
     </div>
     @yield('content')
