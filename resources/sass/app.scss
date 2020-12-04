@@ -44,6 +44,44 @@ body {
     }
 }
 
+.news-title > h1 {
+    text-align: center;
+}
+
+.news {
+    display: grid;
+    grid-template-columns: 46% 50%;
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    text-align: center;
+    margin: 0 2rem;
+    .information-block {
+        min-height: 8rem;
+        border: 1px solid #000;
+        .info-button {
+            width: 5rem;
+            height: 2rem;
+            border: 1px solid black;
+            margin: 1rem;
+            & > a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-decoration: none;
+                color: black;
+                height: 100%;
+                transition: .3s linear;
+            }
+            &:hover {
+                & > a {
+                    color: white;
+                    background: black;
+                }
+            }
+        }
+    }
+}
+
 .info-links {
     text-decoration: none;
 }

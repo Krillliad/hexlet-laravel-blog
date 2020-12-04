@@ -11,9 +11,9 @@
 </head>
 <body>
     <div class="header">
-        <div class="button-navigation">
-            <a href="{{ route('main.welcome') }}">Main</a>
-        </div>
+{{--        <div class="button-navigation">--}}
+{{--            <a href="{{ route('main.welcome') }}">Main</a>--}}
+{{--        </div>--}}
         <div class="button-navigation">
             <a href="{{ route('about.about') }}">About</a>
         </div>
