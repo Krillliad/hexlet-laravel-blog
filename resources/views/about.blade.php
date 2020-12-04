@@ -1,6 +1,8 @@
 @extends('layouts.layout')
 
 @section('content')
-    <h1>О блоге</h1>
-    <p>Эксперименты с Laravel на Хекслете</p>
+    <div class="title">
+        <h1>О нас</h1>
+        <p>Эксперименты с Laravel на Хекслете</p>
+    </div>
 @endsection

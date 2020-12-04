@@ -1,10 +1,14 @@
 @extends('layouts.layout')
 
 @section('content')
-        <div class="news-title">
-            <h1>Список новостей</h1>
-        </div>
-        <div class="news">
+    {{ Form::open(['url' => route('information.index'), 'method' => 'get']) }}
+        {{ Form::text('search') }}
+        {{ Form::submit('Search') }}
+    {{ Form::close() }}
+    <div class="title">
+        <h1>Список новостей</h1>
+    </div>
+    <div class="news">
         @foreach($informational as $information)
             <div class="information-block">
                 <h2>{{ $information->name }}</h2>

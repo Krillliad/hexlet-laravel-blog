@@ -7,11 +7,17 @@ use Illuminate\Http\Request;
 
 class InformationController extends Controller
 {
-    public function index() {
+    public function index(Request $request) {
         $informational = Information::all();
+        $search = $request->input('search');
 
-        // compact('articles') => [ 'articles' => $articles ]
-        return view('information.index', compact('informational'));
+//        if ($search) {
+//            $informational = Information::where('name' , 'like', '%'.$search.'%')->get();
+//        }
+
+        $search = $search ? $informational = Information::where('name' , 'like', '%'.$search.'%')->get() : $informational;
+
+        return view('information.index', compact('informational', 'search'));
     }
 
 
