@@ -8,8 +8,7 @@ use Illuminate\Support\Facades\Schema;
 
 class TeamController extends Controller
 {
-    public function team() {
-        {
+    public function index() {
             $team = Team::all();
 //            $team = [
 //              ['name' => 'Vasiliy', 'position' => 'Operator'],
@@ -18,7 +17,11 @@ class TeamController extends Controller
 //              ['name' => 'Serega', 'position' => 'Dvornik']
 //            ];
 
-            return view('members', ['team' => $team]);
-        }
+            return view('team.index', ['team' => $team]);
+    }
+    public function show($id) {
+        $member = Team::select([ 'name', 'position'])->where('id', $id)->first();
+
+        return view('team.show', compact('member'));
     }
 }

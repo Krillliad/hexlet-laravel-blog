@@ -23,13 +23,16 @@ Route::get('/', [DorouController::class, 'welcome'])
 Route::get('about', [PageController::class, 'about'])
     ->name('about.about');
 
-Route::get('members', [TeamController::class, 'team'])
+Route::get('members', [TeamController::class, 'index'])
     ->name('members.team');
+
+Route::get('members/{id}', [TeamController::class, 'show'])
+    ->name('members.show');
 
 Route::get('information', [InformationController::class, 'index'])
     ->name('information.index');
 
-Route::get('/information/{id}', [InformationController::class, 'show'])
+Route::get('information/{id}', [InformationController::class, 'show'])
     ->name('information.show');
 
 //Route::resource('posts', PostController::class)->except('show', 'index');

@@ -23,6 +23,11 @@
         <div class="button-navigation">
             <a href="{{ route('information.index') }}">Information</a>
         </div>
+        <div class="header-title">
+            <a href="{{ route('main.welcome') }}">
+                <h1>Laravel Hexlet Blog</h1>
+            </a>
+        </div>
     </div>
     @yield('content')
 </body>

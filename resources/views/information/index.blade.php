@@ -5,7 +5,9 @@
         <h1>Список новостей</h1>
         @foreach($informational as $information)
             <h2>
-                <a href="{{ route('information.show', ['id' => $information->id]) }}">{{ $information->name }}</a>
+                <a href="{{ route('information.show', ['id' => $information->id]) }}" class="info-links">
+                    {{ $information->name }}
+                </a>
             </h2>
             <div>{{ Str::limit($information->body, 200) }}</div>
         @endforeach

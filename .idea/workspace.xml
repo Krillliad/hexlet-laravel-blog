@@ -20,14 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9813f86b-c106-41cb-aecc-3090e4aae142" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/team/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/team/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/hexlet-laravel-blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hexlet-laravel-blog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TeamController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TeamController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Article.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Artisan.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/information/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/information/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/members.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,6 +156,7 @@
       <path value="$PROJECT_DIR$/vendor/filp/whoops" />
       <path value="$PROJECT_DIR$/vendor/psy/psysh" />
       <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
     </include_path>
   </component>
   <component name="ProjectId" id="1kzxZZMShqFzOaB14AJ53pd185M" />
@@ -167,6 +175,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/team" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
@@ -184,7 +197,8 @@
       <workItem from="1606717277828" duration="76000" />
       <workItem from="1606717462743" duration="1509000" />
       <workItem from="1606878147556" duration="10283000" />
-      <workItem from="1606965617104" duration="10757000" />
+      <workItem from="1606965617104" duration="13982000" />
+      <workItem from="1607050638309" duration="4799000" />
     </task>
     <servers />
   </component>
@@ -202,51 +216,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="700" y="351" width="581" height="411" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606728051560">
-      <screen x="72" y="27" width="1848" height="1053" />
-    </state>
-    <state x="700" y="351" width="581" height="411" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1606728051560" />
-    <state x="811" y="327" width="351" height="467" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606906551960">
-      <screen x="72" y="27" width="1848" height="1053" />
-    </state>
-    <state x="811" y="327" width="351" height="467" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1606906551960" />
-    <state x="172" y="127" width="1648" height="853" key="DiffContextDialog" timestamp="1606976594004">
-      <screen x="72" y="27" width="1848" height="1053" />
-    </state>
-    <state x="172" y="127" width="1648" height="853" key="DiffContextDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1606976594004" />
-    <state x="630" y="327" width="722" height="460" key="EditFileWatcherDialog" timestamp="1606729117462">
-      <screen x="72" y="27" width="1848" height="1053" />
-    </state>
-    <state x="630" y="327" width="722" height="460" key="EditFileWatcherDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1606729117462" />
-    <state width="1802" height="266" key="GridCell.Tab.0.bottom" timestamp="1606730990538">
-      <screen x="72" y="27" width="1848" height="1053" />
-    </state>
-    <state width="1802" height="266" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1606730990538" />
-    <state width="1802" height="266" key="GridCell.Tab.0.center" timestamp="1606730990536">
-      <screen x="72" y="27" width="1848" height="1053" />
-    </state>
-    <state width="1802" height="266" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1606730990536" />
-    <state width="1802" height="266" key="GridCell.Tab.0.left" timestamp="1606730990535">
-      <screen x="72" y="27" width="1848" height="1053" />
-    </state>
-    <state width="1802" height="266" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1606730990535" />
-    <state width="1802" height="266" key="GridCell.Tab.0.right" timestamp="1606730990537">
-      <screen x="72" y="27" width="1848" height="1053" />
-    </state>
-    <state width="1802" height="266" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1606730990537" />
-    <state x="774" y="174" width="434" height="765" key="RollbackChangesDialog" timestamp="1606976319837">
-      <screen x="72" y="27" width="1848" height="1053" />
-    </state>
-    <state x="774" y="174" width="434" height="765" key="RollbackChangesDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1606976319837" />
-    <state x="688" y="276" width="616" height="554" key="find.popup" timestamp="1606975009953">
-      <screen x="72" y="27" width="1848" height="1053" />
-    </state>
-    <state x="688" y="276" width="616" height="554" key="find.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1606975009953" />
-    <state x="660" y="252" key="run.anything.popup" timestamp="1606885064567">
-      <screen x="72" y="27" width="1848" height="1053" />
-    </state>
-    <state x="660" y="252" key="run.anything.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1606885064567" />
   </component>
 </project>

@@ -1,8 +1,5 @@
 @extends('layouts.layout')
 
 @section('content')
-    <div class="title">
-
-    </div>
+    <h1>lol</h1>
 @endsection
-
