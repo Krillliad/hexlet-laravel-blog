@@ -11,13 +11,13 @@ class InformationController extends Controller
         $informational = Information::all();
         $search = $request->input('search');
 
-//        if ($search) {
-//            $informational = Information::where('name' , 'like', '%'.$search.'%')->get();
-//        }
+        if ($search) {
+            $informational = Information::where('name' , 'like', '%'.$search.'%')->get();
+        }
 
-        $search = $search ? $informational = Information::where('name' , 'like', '%'.$search.'%')->get() : $informational;
+//        $search ? $informational = Information::where('name' , 'like', '%'.$search.'%')->get() : $informational;
 
-        return view('information.index', compact('informational', 'search'));
+        return view('information.index', compact('informational'));
     }
 
 
