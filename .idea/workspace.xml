@@ -22,6 +22,9 @@
     <list default="true" id="9813f86b-c106-41cb-aecc-3090e4aae142" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/InformationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/InformationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Dorou.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Information.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Information.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_02_114842_create_information_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_08_103847_create_information_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,6 +157,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="LET" />
@@ -185,7 +190,8 @@
       <workItem from="1606878147556" duration="10283000" />
       <workItem from="1606965617104" duration="13982000" />
       <workItem from="1607050638309" duration="15721000" />
-      <workItem from="1607309899238" duration="550000" />
+      <workItem from="1607309899238" duration="1900000" />
+      <workItem from="1607406981575" duration="8778000" />
     </task>
     <servers />
   </component>
@@ -203,5 +209,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
