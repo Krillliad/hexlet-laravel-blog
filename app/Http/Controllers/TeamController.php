@@ -17,10 +17,11 @@ class TeamController extends Controller
 //              ['name' => 'Serega', 'position' => 'Dvornik']
 //            ];
 
-            return view('team.index', ['team' => $team]);
+            return view('team.index', compact('team'));
+//            return view('team.index', ['team' => $team]);
     }
     public function show($id) {
-        $member = Model::select([ 'name', 'position'])->where('id', $id)->first();
+        $member = Model::select([ 'name', 'position', 'body'])->where('id', $id)->first();
 
         return view('team.show', compact('member'));
     }

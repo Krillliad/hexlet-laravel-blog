@@ -1,5 +1,11 @@
 @extends('layouts.layout')
 
 @section('content')
-    <h1>lol</h1>
+
+    @if($member)
+
+        <p>{{ $member->body }}</p>
+
+    @endif
+
 @endsection
