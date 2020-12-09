@@ -20,11 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9813f86b-c106-41cb-aecc-3090e4aae142" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ef997bc1-ed06-4ee6-b250-1f90be70bdae.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ef997bc1-ed06-4ee6-b250-1f90be70bdae.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/InformationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/InformationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Dorou.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Information.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Information.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_02_114842_create_information_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_08_103847_create_information_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TeamController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TeamController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Team.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Team.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_02_090211_create_dorous_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_02_100754_create_teams_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_08_120831_create_teams_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +194,7 @@
       <workItem from="1606965617104" duration="13982000" />
       <workItem from="1607050638309" duration="15721000" />
       <workItem from="1607309899238" duration="1900000" />
-      <workItem from="1607406981575" duration="8778000" />
+      <workItem from="1607406981575" duration="12241000" />
     </task>
     <servers />
   </component>

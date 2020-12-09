@@ -94,3 +94,39 @@ body {
   text-decoration: none;
 }
 
+.members {
+  display: grid;
+  grid-template-columns: 46% 50%;
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  text-align: center;
+  margin: 0 2rem;
+}
+
+.members .team-block {
+  min-height: 8rem;
+  border: 1px solid #000;
+}
+
+.members .team-block .team-button {
+  width: 5rem;
+  height: 2rem;
+  border: 1px solid black;
+  margin: 1rem;
+}
+
+.members .team-block .team-button > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  height: 100%;
+  transition: 0.3s linear;
+}
+
+.members .team-block .team-button:hover > a {
+  color: white;
+  background: black;
+}
+
