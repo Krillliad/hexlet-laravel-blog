@@ -32,6 +32,12 @@ Route::get('members/{id}', [TeamController::class, 'show'])
 Route::get('information', [InformationController::class, 'index'])
     ->name('information.index');
 
+Route::get('information/create', [InformationController::class, 'create'])
+    ->name('information.create');
+
+Route::post('information', [InformationController::class, 'store'])
+    ->name('information.store');
+
 Route::get('information/{id}', [InformationController::class, 'show'])
     ->name('information.show');
 

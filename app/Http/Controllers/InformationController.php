@@ -26,4 +26,32 @@ class InformationController extends Controller
 
         return view('information.show', compact('information'));
     }
+
+    public function create() {
+        $information = new Model();
+
+        return view('information.create', compact('information'));
+    }
+
+    public function store(Request $request) {
+        {
+            // Проверка введённых данных
+            // Если будут ошибки, то возникнет исключение
+            // Иначе возвращаются данные формы
+            $data = $this->validate($request, [
+                'name' => 'required|unique:information',
+                'body' => 'required|min:10',
+            ]);
+
+            $information = new Model();
+            // Заполнение статьи данными из формы
+            $information->fill($data);
+            // При ошибках сохранения возникнет исключение
+            $information->save();
+
+            // Редирект на указанный маршрут
+            return redirect()
+                ->route('information.index');
+        }
+    }
 }
