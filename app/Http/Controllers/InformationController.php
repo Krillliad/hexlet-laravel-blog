@@ -21,8 +21,8 @@ class InformationController extends Controller
     }
 
     public function show($id) {
-//        $information = Information::findOrFail($id);
-        $information = Model::select([ 'name', 'body'])->where('id', $id)->first();
+        $information = Model::findOrFail($id);
+//        $information = Model::select([ 'name', 'body'])->where('id', $id)->first();
 
         return view('information.show', compact('information'));
     }
@@ -53,5 +53,37 @@ class InformationController extends Controller
             return redirect()
                 ->route('information.index');
         }
+    }
+
+    public function edit($id)
+    {
+        $information = Model::findOrFail($id);
+        return view('information.edit', compact('information'));
+    }
+
+    public function update(Request $request, $id)
+    {
+        $information = Model::findOrFail($id);
+        $data = $this->validate($request, [
+            // У обновления немного изменённая валидация. В проверку уникальности добавляется название поля и id текущего объекта
+            // Если этого не сделать, Laravel будет ругаться на то что имя уже существует
+            'name' => 'required|unique:information,name,' . $information->id,
+            'body' => 'required|min:10',
+        ]);
+
+        $information->fill($data);
+        $information->save();
+        return redirect()
+            ->route('information.index');
+    }
+
+    public function destroy($id): \Illuminate\Http\RedirectResponse
+    {
+        // DELETE — идемпотентный метод, поэтому результат операции всегда один и тот же
+        $information = Model::find($id);
+        if ($information) {
+            $information->delete();
+        }
+        return redirect()->route('information.index');
     }
 }

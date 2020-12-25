@@ -38,7 +38,15 @@ Route::get('information/create', [InformationController::class, 'create'])
 Route::post('information', [InformationController::class, 'store'])
     ->name('information.store');
 
+Route::get('information/{id}/edit', [InformationController::class, 'edit'])
+    ->name('information.edit');
+
+Route::patch('information/{id}', [InformationController::class, 'update'])
+    ->name('information.update');
+
+Route::delete('information/{id}', [InformationController::class, 'destroy'])
+    ->name('information.destroy');
+
 Route::get('information/{id}', [InformationController::class, 'show'])
     ->name('information.show');
 
-//Route::resource('posts', PostController::class)->except('show', 'index');

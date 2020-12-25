@@ -130,3 +130,25 @@ body {
   background: black;
 }
 
+.button-create {
+  width: 10rem;
+  height: 2rem;
+  border: 1px solid black;
+  margin: 1rem;
+}
+
+.button-create > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  height: 100%;
+  transition: 0.3s linear;
+}
+
+.button-create:hover > a {
+  color: white;
+  background: black;
+}
+
